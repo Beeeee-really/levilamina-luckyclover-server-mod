@@ -24,7 +24,7 @@ target("LC-server-mod") -- Change this to your mod name.
     add_rules("@levibuildscript/modpacker")
     add_cxflags( "/EHa", "/utf-8", "/W4", "/w44265", "/w44289", "/w44296", "/w45263", "/w44738", "/w45204")
     add_defines("NOMINMAX", "UNICODE")
-    add_packages("levilamina")
+    add_packages("levilamina", "levibuildscript")
     set_exceptions("none") -- To avoid conflicts with /EHa.
     set_kind("shared")
     set_languages("c++20")
